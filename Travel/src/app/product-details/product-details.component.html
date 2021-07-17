@@ -1,0 +1,43 @@
+
+<h2 class="my-5 text-center text-warning fw-lighter">Travel Details</h2>
+
+<div class=" d-flex justify-content-end " >
+    <i class="btn fs-3 text-warning fw-light fas fa-window-close mb-2" routerLink="/travels"></i>
+</div>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col" class="text-white fw-light">Destination</th>
+        <th scope="col" class="text-white fw-light">Start</th>
+        <th scope="col" class="text-white fw-light">Duration</th>
+        <th scope="col" class="text-white fw-light">Price</th>
+      </tr>
+    </thead>
+    <tbody *ngIf="product">
+      <tr>
+        <td class="fw-light text-white"> {{ product.destination }} </td>
+        <td class="fw-light text-white"> {{ product.start}} </td>
+        <td class="fw-light text-white"> {{ product.duration}} </td>
+        <td class="fw-light text-white"> {{ product.price | currency }} </td>
+      </tr>
+    </tbody>
+    
+</table>
+<div class="d-flex justify-content-end">
+    <div class="btn btn-warning text-white btn-sm display-block bg-transparent mt-4" (click)="addToCart(product)"> Add to Cart <i class='fas fa-cart-plus ms-2'></i></div>
+</div>
+
+<div class="row mt-5 ms-3 text-white fw-light">
+  <div class="col-12 col-md-6">
+    <p class="fst-italic fw-lighter fs-7">We Will Make Your Vacation Unforgettable</p>
+    <h3 class="mb-2 fw-lighter">Services We Offer</h3><br>
+    <span class="me-3 text-decoration-underline">Travel Insurance</span> <span class="me-3">Flights</span> <span class="me-3">Accomodation</span>
+    <p class="mt-2 fs-7 fw-lighter"> 
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+    </p>
+
+  </div>
+
+</div>
