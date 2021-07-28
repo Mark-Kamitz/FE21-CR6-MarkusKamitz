@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-For help styling this document check out [Basic writing and formatting syntax].(https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
+For help styling this document check out [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings).
 
 
 ### For this CodeReview, the following criteria were graded:
@@ -46,7 +46,7 @@ For help styling this document check out [Basic writing and formatting syntax].(
 
 * Display the shopping cart in a separate component.
 
-Bonus Points:
+**Bonus Points:**
 
 * Display the final sum of all the offers the users have selected(i.e Total costs)
 
